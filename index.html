@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <img src="./portfolioLogo.jpeg" alt="Sayee's Portfolio Image" />
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <h1>Hi! I'm <span class="purple">Sayee M. Zanzane</span></h1>
+
+          <h1>Aspiring Software Engineer</h1>
+          <h1><span id="element"></span></h1>
+        </div>
+
+        <div class="rightSection">
+          <img src="./developerLogo.gif" alt="Developer Logo" />
+        </div>
+      </section>
+
+      <section class="secondSection" id="about">
+        <hr />
+        <h1>About</h1>
+        <h3>
+          Results-driven and detail-oriented individual with a strong foundation
+          in computer science and programming, seeking a challenging position as
+          a Software Engineer. Dedicated to leveraging technical expertise in
+          software development, problem-solving, and innovative solutions to
+          contribute effectively to a dynamic development team and drive the
+          success of cutting-edge projects.
+        </h3>
+        <hr />
+      </section>
+
+      <section class="thirdSection" id="resume">
+        <h1>Resume</h1>
+        <div class="square">
+          <div class="education">
+            <h2>Education</h2>
+            <ul>
+              <li><strong>BTech(2021-2025)</strong> CGPA:8.71</li>
+              <li><strong>HSC(209-2021)</strong>Grade:95.17%</li>
+              <li><strong>SSC(2019)</strong>Grade:94.20%</li>
+            </ul>
+          </div>
+
+          <div class="skills">
+            <h2>Skills</h2>
+            <div class="skillList">
+              <ul>
+                <li><strong>Languages:</strong> C, Python,Java</li>
+                <li><strong>CS Fundamentals:</strong> DBMS,OS,CN,OOP,DSA</li>
+                <li><strong>Version Control</strong> Git & GitHub</li>
+                <li>
+                  <strong>Web Development Frameworks/Tools:</strong>HTML,CSS,
+                  JavaScript
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="projects">
+            <h2>Projects</h2>
+            <ul>
+              <li>
+                <strong>Sayee's Portfolio:</strong> Developed a simple Portfolio
+                website describing my Resume <br />
+                Technologies used: HTML, CSS, Bootstrap
+              </li>
+              <li>
+                <strong>Algorithmic trading system: </strong>Developed a system
+                to optimize trading strategies and enhance portfolio
+                performance. <br />Technologies used: Python, API's
+              </li>
+              <li>
+                <strong>Customer Churn Prediction:</strong>Developed a comprehensive solution for 
+                efficient tracking, analysis, and optimization of financial expenditures.
+                 <br />Technologies
+                used: MERN Stack
+              </li>
+              <li>
+                <strong>Expense Management System: </strong>Constructed a
+                predictive system for determining suitable crops based on
+                specific soil characteristics. <br />Technologies used: Machine
+                Learning-Ensemble model
+              </li>
+            </ul>
+          </div>
+
+          <div class="cocuricular">
+            <h2>Co-curicular</h2>
+            <ul>
+              <li>
+                <strong>IEEE Executive Committee Member:</strong>Managed IEEE
+                events, seminars, and workshops as an executive committee member
+                of IEEE Student Branch, VIT Pune.
+              </li>
+              <li>
+                <strong>SWD Volunteer: </strong>Volunteered for tech education
+                program for senior citizens' digital literacy in Social &
+                Welfare Development.
+              </li>
+            </ul>
+          </div>
+          <div class="researchWork">
+            <h2>Research Work</h2>
+            <ul>
+              <li>
+                <strong
+                  >Smart visual assistance for blind using deep learning
+                  approach</strong
+                >
+                <a
+                  href="https://pubs.aip.org/aip/acp/article-abstract/2981/1/020018/2929161/Smart-visual-assistance-for-blind-using-deep?redirectedFrom=fulltext"
+                  ><p>Link</p></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="fourthSection" id="contact">
+        <h1>Contact Me</h1>
+        <h3>Fill out the form and I'll get back to you in 24 hours.</h3>
+        <div class="container">
+          <div class="fourthBox1">
+            <h2>Some more contact channels are:</h2>
+            <br />
+            <p>Fill out details to be contacted</p>
+            <br />
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/sayee-zanzane-714339228/">
+                  <img src="linkedlnLogo.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="sayeezanzane@gmail.com">
+                  <img src="emailLogo.jpeg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/SayeeZ">
+                  <img src="githubLogo.png" alt=""
+                /></a>
+              </li>
+            </ul>
+            <br />
+          </div>
+          <div class="fourthBox2">
+            <form action="php.backend">
+              <input type="text" name="name" placeholder="Name" /><br />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+              /><br />
+              <textarea
+                name="message"
+                rows="6"
+                cols="50"
+                placeholder="Message(optional)"
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">Made with ♡ by Sayee M. Zanzane!</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Passionate Developer", "Machine Learning Enthusiast"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
