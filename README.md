@@ -1,4 +1,4 @@
-![image](https://github.com/SayeeZ/SayeePortfolio.github.io/assets/109275413/4ab10b6d-15ca-48b5-a23d-0a65ace369d3)# My Portfolio Website
+# My Portfolio Website
 
 Below is the glimpse of how the portfolio looks:
 
@@ -12,13 +12,7 @@ Below is the glimpse of how the portfolio looks:
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -32,3 +26,7 @@ Feel free to explore the live version [here](https://sayeez.github.io/SayeePortf
 - Sections for displaying personal information, skills, projects, and contact details.
 - Customizable and easy to update with new projects or information.
 
+## Technologies Used
+
+-HTML
+-CSS
